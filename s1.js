@@ -1,9 +1,9 @@
-const button=document.querySelector('#myButton');
-const button1=document.querySelector('#myButton1');
-const div = document.querySelector('h1');
-button.addEventListener('click',() =>{ 
-    div.style.display = 'none';
+const nak=document.querySelector('#nak');
+const yena=document.querySelector('#yena');
+const h1 = document.querySelector('h1');
+nak.addEventListener('click',() =>{ 
+    h1.style.display = 'none';
 });
-button1.addEventListener('click',()=>{
-    div.style.display = 'block';
+yena.addEventListener('click',()=>{
+    h1.style.display = 'block';
 })
